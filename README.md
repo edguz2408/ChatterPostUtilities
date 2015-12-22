@@ -40,9 +40,11 @@ Installation for this one is easy, just copy and paste both classes on your Sale
 ## API Reference
 ChatterPostUtilities contains the following public methods;
 
+```javascript
 chatterPostFactoryBatchable(List<Map<Id, List<String>>> mChatterPostVals, CapabilityType capType)
 createChatterPostComment(map<Id, List<String>> values)
 
 ChatterPostUtilities contains the following enum;
 
 public enum CapabilityType {None, Link, Poll}
+```
