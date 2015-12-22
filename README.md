@@ -35,7 +35,7 @@ ChatterPostUtilities.chatterPostFactoryBatchable(values, ChatterPostUtilities.Ca
 Whenever I had to work with chatter posts I had to implement the same stuff so I decided I would write an utility class on which I have all chatter post related logic and components so I can re-use them, this class is intelligent enough to know when you're trying to @mention someone or you just wanna add a single string.
 
 ## Installation
-Installation for this one is easy, just copy and paste both classes on your Salesforce instance.
+https://githubsfdeploy.herokuapp.com/app/githubdeploy/financialforcedev/apex-mdapi/edguz2408/ChatterPostUtilities
 
 ## API Reference
 ChatterPostUtilities contains the following public methods;
