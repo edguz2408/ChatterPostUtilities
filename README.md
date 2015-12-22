@@ -2,7 +2,7 @@
 ChatterPostUtilities is an APEX class I developed for making chatter post an easy way, by using this class you won't need to implement Salesforce's ConnectApi components, all you need here are strings.
 
 ## Example
-ChatterPostUtilities main method chatterPostFactoryBatchable receives a list of ```Map<Id, List<String>>``` so let's say you need a chatter post with no capabilities and you want the @mention to be located before the chatter post body you only need to follow the example below, remember the chatter post body will be organized according to the order in which you add the strings in the map's list.
+ChatterPostUtilities main method chatterPostFactoryBatchable receives a list of ```Map<Id, List<String>>``` so let's say you need a chatter post with no capabilities and you want the @mention to be located before the chatter post body, you only need to follow the example below, remember the chatter post body will be organized according to the order in which you add the strings in the map's list.
 ```javascript
 /* The code below will generate a chatter with no capabilities */
 
