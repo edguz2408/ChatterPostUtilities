@@ -80,7 +80,7 @@ public class ChatterPostUtilities {
         
          if(!feedsToSend.isEmpty()){
             System.debug('feeds to send ' + feedsToSend);
-            sendChatterPosts(feedsToSend, null); 
+            sendChatterPosts(feedsToSend); 
         } 
         return saveResults;
     }
@@ -150,7 +150,7 @@ public class ChatterPostUtilities {
         return result;
     }
     
-    static boolean sendChatterPosts(List<ConnectApi.BatchInput> feeds, fType feedType){
+    static boolean sendChatterPosts(List<ConnectApi.BatchInput> feeds){
         boolean result = false;
         saveResults = new List<ConnectApi.BatchResult>();
         
@@ -190,7 +190,6 @@ public class ChatterPostUtilities {
         
     }
     
-    public enum fType {UserProfile, Record}
     public enum CapabilityType {None, Link, Poll}
     private class PollChatterPostException Extends Exception { }
     
